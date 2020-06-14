@@ -1,0 +1,289 @@
+@import url("./font.css");
+
+*,
+*::before,
+*::after {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: "PopRegular";
+   font-size: 1em;
+}
+
+a {
+   text-decoration: none;
+}
+
+ul li {
+   list-style-type: none;
+}
+
+header {
+   width: 100%;
+   height: 10vh;
+   background: #ffffff;
+}
+
+header .header-content {
+   width: 100%;
+   height: 10vh;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+header .logo p {
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-size: 5rem;
+   color: #3f3f3f;
+   margin-left: 2rem;
+}
+
+header .header-content ul {
+   display: flex;
+}
+
+header .header-content ul li a {
+   font-family: "MontBold", sans-serif;
+   text-transform: uppercase;
+   padding: 39px;
+   color: #9c9c9c;
+   transition: background 0.2s ease-in;
+}
+
+header .header-content ul li a:hover {
+   background: #9c9c9c;
+   color: white;
+}
+
+nav {
+   display: flex;
+}
+
+nav .nav-links ul li .active {
+   color: #707070;
+}
+
+main {
+   min-height: calc(100vh - 10vh - 10vh);
+}
+
+footer .footer-container {
+   height: 10vh;
+   width: 100%;
+   background-color: white;
+}
+
+footer .footer-content {
+   width: 95%;
+   height: 10vh;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   color: #9c9c9c;
+}
+
+footer .footer-content .address {
+   margin-left: -16rem;
+}
+
+footer .news-letter input[type="text"] {
+   background: transparent;
+   outline: none;
+   border: none;
+   border-bottom: 1px solid #707070;
+   color: #707070;
+   font-family: "PopLight";
+   transition: transform 0.3s ease;
+   width: 300px;
+}
+
+footer .news-letter input:focus::placeholder {
+   color: transparent;
+   transition: all 0.3s ease-in;
+}
+
+footer .news-letter input[type="text"]:focus {
+   transform: translateY(13%);
+}
+
+footer .news-letter input[type="submit"] {
+   background: transparent;
+   border: 1px solid #707070;
+   border-radius: 24px;
+   outline: none;
+   cursor: pointer;
+   padding: 0.3rem 0.8rem;
+   color: #707070;
+   text-transform: uppercase;
+   font-size: 12px;
+   transition: background 0.3s ease-in;
+}
+
+footer .news-letter input[type="submit"]:hover {
+   background: #707070;
+   color: white;
+}
+
+footer .social-links a i {
+   color: #707070;
+   padding: 0.4rem;
+   font-size: 1.1rem;
+}
+
+footer .address p {
+   line-height: 1.5rem;
+}
+
+footer .address,
+footer .social-links {
+   text-align: center;
+}
+
+.fa-facebook-f,
+.fa-instagram,
+.fa-twitter,
+.fa-youtube {
+   transition: color 0.2s ease-in;
+}
+
+.fa-facebook-f:hover {
+   color: #3b5998;
+}
+
+.fa-instagram:hover {
+   color: #e4405f
+}
+
+.fa-twitter:hover {
+   color: #55acee;
+}
+
+.fa-youtube:hover {
+   color: #c4302b;
+}
+
+@keyframes title-fade {
+   from {
+      transform: translateY(-50%);
+      opacity: 0;
+   }
+
+   to {
+      transform: translateY(0%);
+      opacity: 1;
+   }
+}
+
+@keyframes box-fade {
+   from {
+      transform: scale(0.2);
+      opacity: 0;
+   }
+
+   to {
+      transform: scale(1);
+      opacity: 1;
+   }
+}
+
+@keyframes btn-fade {
+   0% {
+      transform: translateY(-100%);
+      opacity: 0;
+   }
+
+   100% {
+      transform: translateY(0%);
+      opacity: 1;
+   }
+}
+
+@keyframes reserve-btn-fade {
+   0% {
+      display: none;
+      transform: translateY(100%);
+      opacity: 0;
+   }
+
+   100% {
+      display: all;
+      transform: translateY(0%);
+      opacity: 1;
+   }
+}
+
+@keyframes input-fade {
+   from {
+      opacity: 0;
+   }
+
+   to {
+      opacity: 1;
+   }
+}
+
+/* About and Contact Common */
+
+main .title {
+   text-align: center;
+}
+
+main .title p {
+   font-family: "PopLight", sans-serif;
+   font-size: 5rem;
+   font-weight: 600;
+   color: #ffffff;
+   margin: 0;
+   padding: 0.8rem;
+   animation: title-fade-about 1.5s ease;
+}
+
+main .section-container {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   width: 100vw;
+   height: 60vh;
+}
+
+main .section-container .section-content {
+   height: 60vh;
+   width: 50vw;
+   background-color: #ececec;
+   ;
+   padding: 5rem;
+   animation: box-fade 1.5s ease;
+}
+
+main .section-container .section-content {
+   text-align: center;
+}
+
+main .section-container .section-content p {
+   color: #707070;
+}
+
+main .section-container .section-content .about-us p {
+   font-size: 2rem;
+   padding-bottom: 1rem;
+}
+
+@keyframes title-fade-about {
+   from {
+      transform: translateY(-25%);
+      opacity: 0;
+   }
+
+   to {
+      transform: translateY(0%);
+      opacity: 1;
+   }
+}

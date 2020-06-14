@@ -1,0 +1,44 @@
+/* Montserrat */
+
+@font-face {
+   font-family: "MontLight";
+   src: url("../fonts/Montserrat/Montserrat-Light.ttf");
+}
+
+@font-face {
+   font-family: "MontRegular";
+   src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face {
+   font-family: "MontMedium";
+   src: url("../fonts/Montserrat/Montserrat-Medium.ttf");
+}
+
+@font-face {
+   font-family: "MontBold";
+   src: url("../fonts/Montserrat/Montserrat-Bold.ttf");
+}
+
+
+/* Poppins */
+
+@font-face {
+   font-family: "PopLight";
+   src: url("../fonts/Poppins/Poppins-Light.ttf");
+}
+
+@font-face {
+   font-family: "PopRegular";
+   src: url("../fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+   font-family: "PopMedium";
+   src: url("../fonts/Poppins/Poppins-Medium.ttf");
+}
+
+@font-face {
+   font-family: "PopBold";
+   src: url("../fonts/Poppins/Poppins-Bold.ttf");
+}
