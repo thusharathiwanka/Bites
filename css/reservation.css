@@ -1,95 +1,94 @@
 body {
-   background-image: url("../images/reservation-background.png");
-   background-repeat: no-repeat;
-   background-size: cover;
-   width: 100%;
-   height: 100%;
+  background-image: url("../images/reservation-background 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
 }
 
 main .form-container {
-   display: flex;
-   justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 main .form-container .form-section {
-   padding-top: 4rem;
-   width: 50vw;
-   height: 50vh;
-   display: flex;
-   justify-content: center;
+  padding-top: 3rem;
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
 }
 
 main .form-container .form-section .input-section {
-   width: 50vw;
-   height: 40vh;
+  width: 50vw;
+  height: 40vh;
 }
 
 main .form-container .form-section .input-section {
-   display: flex;
-   flex-direction: column;
-   justify-content: space-around;
-   align-items: center;
-   animation: input-fade 2s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  animation: input-fade 2s ease;
 }
 
 main .form-container .form-section .submit-container {
-   width: 50vw;
-   height: 10vh;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+  width: 50vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 main .form-container .form-section form #reserve-btn {
-   margin-top: 2.5rem;
-   display: inline-block;
-   text-transform: uppercase;
-   color: #707070;
-   font-family: "PopRegular";
-   padding: 8px 20px;
-   border: 1px solid#707070;
-   border-radius: 24px;
-   outline: none;
-   background: transparent;
-   transition: background 0.3s ease-in;
-   animation: reserve-btn-fade 1.5s ease;
+  margin-top: 4rem;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #707070;
+  font-family: "PopRegular";
+  padding: 8px 50px;
+  border: 2px solid#707070;
+  outline: none;
+  font-size: 1.2rem;
+  background: transparent;
+  transition: background 0.3s ease-in;
+  cursor: pointer;
 }
 
 main .form-container .form-section form #reserve-btn:hover {
-   background: #707070;
-   color: white;
+  background: #707070;
+  color: white;
 }
 
 main .form-container .form-section input[type="text"],
 main .form-container .form-section input[type="email"],
 main .form-container .form-section input[type="date"],
 main .form-container .form-section input[type="time"] {
-   background: transparent;
-   outline: none;
-   border: none;
-   border-bottom: 1px solid #707070;
-   color: #707070;
-   transition: transform 0.3s ease;
-   width: 400px;
-   font-size: 1rem;
-   font-family: "PopLight";
-   transition: all 0.5s ease;
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #707070;
+  color: #707070;
+  transition: transform 0.3s ease;
+  width: 400px;
+  font-size: 1.2rem;
+  font-family: "PopLight";
+  transition: all 0.5s ease;
 }
 
-
 main .form-container .form-section input:invalid {
-   border-bottom: 1px solid #e45353;
+  border-bottom: 1px solid #e45353;
 }
 
 main .form-container .form-section input[type="text"]:focus,
 main .form-container .form-section input[type="email"]:focus,
 main .form-container .form-section input[type="date"]:focus,
 main .form-container .form-section input[type="time"]:focus {
-   width: 500px;
-   transition: all 0.5s ease;
+  width: 500px;
+  transition: all 0.5s ease;
 }
 
 main .form-container form input:focus::placeholder {
-   color: transparent;
-   transition: all 0.2s ease-in;
+  color: transparent;
+  transition: all 0.2s ease-in;
 }

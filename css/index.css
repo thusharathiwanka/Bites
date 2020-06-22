@@ -19,7 +19,7 @@ main .main-content .title-index h1 {
   font-weight: 700;
   color: #616060;
   line-height: 7rem;
-  padding: 10rem 2rem 0 1.6rem;
+  padding: 12rem 2rem 0 1.6rem;
 }
 
 main .main-content .title-index h2 {
@@ -38,6 +38,7 @@ main .main-content .reservation-btn {
   border: 2px solid#707070;
   background: transparent;
   outline: none;
+  font-size: 1.2rem;
   transition: background 0.3s ease-in-out;
 }
 
@@ -52,8 +53,8 @@ main .main-content .social-links {
 
 main .main-content .social-links a {
   color: #707070;
-  font-size: 1.6rem;
-  padding-right: 1.5rem;
+  font-size: 1.8rem;
+  padding-right: 2.4rem;
 }
 
 @keyframes title-fade-index {
@@ -64,5 +65,26 @@ main .main-content .social-links a {
   100% {
     transform: translateY(0%);
     opacity: 1;
+  }
+}
+
+/* Media queries */
+@media screen and (max-width: 1200px) {
+  body {
+    background-position: bottom;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main .main-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30vh;
+  }
+  main .main-content h1 {
+    padding: 0 2rem 0 1.6rem;
   }
 }
