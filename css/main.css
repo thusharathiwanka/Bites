@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "PopRegular";
   font-size: 1em;
@@ -44,7 +48,7 @@ header .logo p {
   font-size: 4rem;
   color: #3f3f3f;
   margin-left: 2rem;
-  flex: 2 1 40rem;
+  flex: 2 1 30rem;
 }
 
 header .header-content ul {
@@ -65,10 +69,6 @@ header .header-content ul li a:hover {
   color: white;
 }
 
-nav {
-  display: flex;
-}
-
 nav .nav-links {
   display: flex;
   align-items: center;
@@ -86,7 +86,6 @@ nav img {
   width: 3rem;
   z-index: 2;
   display: none;
-  cursor: pointer;
 }
 
 main {
@@ -104,7 +103,7 @@ footer .footer-content {
   height: 10vh;
   margin: auto;
   display: flex;
-  flex: 2 1 40rem;
+  flex: 2 1 30rem;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
@@ -143,7 +142,6 @@ footer .news-letter input[type="submit"] {
   text-transform: uppercase;
   font-size: 12px;
   transition: background 0.3s ease-in;
-  margin: 1rem;
 }
 
 footer .news-letter input[type="submit"]:hover {
@@ -155,7 +153,7 @@ footer .social-links a i {
   color: #707070;
   padding: 2rem;
   font-size: 1.5rem;
-  flex: 1 1 40rem;
+  flex: 1 1 30rem;
   text-align: center;
 }
 
@@ -319,11 +317,39 @@ main .section-container .section-content .about-us p {
 
 @media screen and (max-width: 839px) {
   footer .news-letter {
+    width: 100%;
+    text-align: center;
     padding: 2rem;
+  }
+
+  footer .social-links {
+    width: 100%;
+    text-align: center;
+  }
+
+  footer .footer-content {
+    text-align: center;
+  }
+
+  footer p {
+    padding: 1rem;
+  }
+
+  footer input[type="submit"] {
+    margin: 2rem;
+  }
+
+  main {
+    text-align: center;
   }
 }
 
 @media screen and (max-width: 800px) {
+  #menu-open {
+    display: block;
+    cursor: pointer;
+  }
+
   nav .nav-links ul {
     position: fixed;
     background: #717171;
@@ -335,16 +361,12 @@ main .section-container .section-content .about-us p {
     justify-content: space-around;
     align-items: center;
     z-index: 2;
-    transition: transform 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
   }
 
   nav .nav-links ul li a {
     font-size: 1.6rem;
     color: white;
-  }
-
-  nav #menu-open {
-    display: block;
   }
 
   .nav-open {
@@ -353,10 +375,6 @@ main .section-container .section-content .about-us p {
 
   html {
     font-size: 70%;
-  }
-
-  footer .footer-content {
-    text-align: center;
   }
 }
 
