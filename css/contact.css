@@ -15,7 +15,11 @@ main {
   align-items: center;
   width: 90%;
   margin: auto;
-  height: 80vh;
+  min-height: 80vh;
+}
+
+main .section-container {
+  min-height: 60vh;
 }
 
 main .section-container .section-content {
@@ -24,7 +28,8 @@ main .section-container .section-content {
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-bottom: 5rem;
+  width: 60%;
+  min-height: 60vh;
 }
 
 main .section-container .section-content .contact-us {

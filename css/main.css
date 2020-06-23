@@ -119,7 +119,7 @@ footer .news-letter input[type="text"] {
   color: #707070;
   font-family: "PopLight";
   transition: transform 0.3s ease;
-  width: 300px;
+  width: 20rem;
 }
 
 footer .news-letter input:focus::placeholder {
@@ -265,16 +265,15 @@ main .section-container {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  width: 100vw;
-  height: 60vh;
+  min-height: 50vh;
+  margin-bottom: 2rem;
 }
 
 main .section-container .section-content {
-  height: 60vh;
-  width: 50vw;
   background-color: rgba(236, 236, 236, 0.8);
-  padding: 5rem;
+  padding: 2rem;
   animation: box-fade 1.5s ease;
+  min-height: 50vh;
 }
 
 main .section-container .section-content {

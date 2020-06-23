@@ -7,10 +7,14 @@ body {
   animation: input-fade 1s ease-in-out;
 }
 
-main .main-content {
+main {
   width: 95%;
   min-height: 90vh;
   margin: 0 0 0 auto;
+}
+
+main .main-content {
+  min-height: 60vh;
 }
 
 main .main-content .title-index h1 {

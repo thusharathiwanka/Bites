@@ -6,6 +6,10 @@ body {
   height: 100%;
 }
 
+section img {
+  padding-bottom: 20px;
+}
+
 section .title-small {
   display: flex;
   justify-content: center;
@@ -35,6 +39,8 @@ section .category-box {
   height: 425px;
   width: 300px;
   background-color: #ececec;
+  display: flex;
+  flex-direction: column;
   text-align: center;
   position: relative;
   margin: 3rem;
@@ -44,14 +50,12 @@ section .category-box {
 
 section .box-container .category-box::after {
   content: "";
+  padding-top: 150px;
   font-size: 2.5rem;
   color: white;
   position: absolute;
   height: 83%;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   top: 0%;
   left: 0%;
   background-color: #000000;
@@ -88,16 +92,10 @@ section .box-container .category-box:hover img {
 }
 
 section .box-container .category-box a {
-  display: inline-block;
-  margin-top: 0.8rem;
+  display: block;
   text-transform: uppercase;
   color: #707070;
   padding: 4px 20px;
-  border: 1px solid #707070;
+  font-size: 1.2rem;
   transition: background 0.3s ease-in;
-}
-
-section .box-container .category-box a:hover {
-  background: #707070;
-  color: white;
 }
