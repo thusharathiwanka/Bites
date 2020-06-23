@@ -85,7 +85,7 @@ main .form-container .form-section input[type="text"]:focus,
 main .form-container .form-section input[type="email"]:focus,
 main .form-container .form-section input[type="date"]:focus,
 main .form-container .form-section input[type="time"]:focus {
-  width: 500px;
+  width: 34rem;
   transition: all 0.5s ease;
 }
 
