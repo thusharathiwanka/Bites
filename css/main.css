@@ -83,9 +83,10 @@ nav img {
   position: absolute;
   right: 4rem;
   top: 2rem;
-  width: 3rem;
+  width: 40px;
   z-index: 2;
   display: none;
+  align-self: center;
 }
 
 main {
