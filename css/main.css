@@ -383,3 +383,15 @@ main .section-container .section-content .about-us p {
     font-size: 60%;
   }
 }
+
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  html {
+    font-size: 40%;
+  }
+}

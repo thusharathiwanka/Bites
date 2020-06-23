@@ -8,20 +8,28 @@ span {
   margin-left: 1rem;
 }
 
-main .section-container {
+main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-width: 50%;
-  min-height: 60vh;
+  width: 90%;
+  margin: auto;
+  height: 80vh;
+}
+
+main .section-container .section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 5rem;
 }
 
 main .section-container .section-content .contact-us {
   font-size: 2rem;
   padding-bottom: 1rem;
-  align-items: center;
-  justify-content: center;
 }
 
 main .section-container .section-content .contact-method {
@@ -33,7 +41,6 @@ main .section-container .section-content .contact-method {
 
 main .section-container .section-content .contact-method a {
   display: flex;
-  justify-content: flex-start;
   flex-wrap: wrap;
   margin-bottom: 1.5rem;
   color: #707070;
