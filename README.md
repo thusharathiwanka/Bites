@@ -1,3 +1,3 @@
 # Bites
 Front end for restaurant website
-![](landing.png)
+![](preview/landing.png)
