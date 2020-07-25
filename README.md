@@ -1,6 +1,6 @@
 # Bites
 
-Front end for restaurant website
+Front end for restaurant website.
 
 Check it out => https://bitesrestaurant.netlify.app/
 
