@@ -75,6 +75,11 @@ nav .nav-links {
   justify-content: center;
 }
 
+#menu-open,
+#menu-close {
+  display: none;
+}
+
 nav .nav-links ul li .active {
   color: #3f3f3f;
 }
