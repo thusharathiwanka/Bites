@@ -44,21 +44,21 @@ main .form-container .form-section form #reserve-btn {
   margin-top: 5rem;
   display: inline-block;
   text-transform: uppercase;
-  color: #707070;
+  color: white;
   font-family: "PopRegular";
   padding: 8px 50px;
-  border: 2px solid#707070;
+  border: none;
   outline: none;
   font-size: 1.2rem;
-  background: transparent;
+  background: #5c851e;
   transition: background 0.3s ease-in;
   cursor: pointer;
   margin-bottom: 3rem;
+  border-radius: 5px;
 }
 
 main .form-container .form-section form #reserve-btn:hover {
-  background: #707070;
-  color: white;
+  background: #81b434;
 }
 
 main .form-container .form-section input[type="text"],
