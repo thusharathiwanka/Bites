@@ -29,26 +29,26 @@ main .main-content .title-index h1 {
 main .main-content .title-index h2 {
   font-size: 2rem;
   padding-left: 2rem;
-  color: #616060;
+  color: #a8a8a8;
+  font-weight: 500;
 }
 
 main .main-content .reservation-btn {
   display: inline-block;
   margin: 3rem 2rem 2rem 2rem;
   text-transform: uppercase;
-  color: #707070;
+  color: white;
   font-family: "PopRegular";
-  padding: 8px 20px;
-  border: 2px solid#707070;
-  background: transparent;
+  padding: 10px 20px;
+  background-color: #eb6e67;
   outline: none;
   font-size: 1.2rem;
   transition: background 0.3s ease-in-out;
+  border-radius: 5px;
 }
 
 main .main-content .reservation-btn:hover {
-  background: #707070;
-  color: white;
+  background: #eb827d;
 }
 
 main .main-content .social-links {

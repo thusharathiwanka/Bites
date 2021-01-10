@@ -46,6 +46,7 @@ section .category-box {
   margin: 3rem;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
   overflow: hidden;
+  border-radius: 10px;
 }
 
 section .box-container .category-box::after {
