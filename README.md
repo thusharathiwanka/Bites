@@ -2,6 +2,6 @@
 
 Front end for restaurant website.
 
-Check it out => https://bitesrestaurant.netlify.app/
+Checkout static site here => https://bitesrestaurant.netlify.app/
 
 ![](./previews/bites.png)
